@@ -6,14 +6,12 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc",
-    "slack:verify": "slack-verify --secret $SLACK_SIGNING_SECRET --path=/slack/events --port=3000"
+    "build": "tsc"
   },
   "author": "tacoskingdom",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "@slack/events-api": "^3.0.1",
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.1.0",
     "@types/node": "^17.0.12",
